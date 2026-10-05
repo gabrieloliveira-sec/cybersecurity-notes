@@ -125,3 +125,55 @@ Preparação dos sistemas criptográficos contra as ameaças da computação qu�
                                                 │
                                                 ▼
 [🔎 SOC / Resposta] ◄── [🛡️ Threat Intel] ◄── [🔐 Criptografia & Hash]
+
+# 🌐 Fundamentos de Redes e Segurança
+
+Anotações sobre conceitos de redes, arquitetura de segurança e defesa em profundidade.
+
+---
+
+## WAN, SD-WAN e SASE
+
+### WAN — Wide Area Network
+
+WAN é uma rede utilizada para conectar redes ou unidades geograficamente distantes.
+
+Exemplos:
+
+- Matriz ↔ Filial
+- Empresa ↔ Datacenter
+- Empresa ↔ Cloud
+- Filial ↔ Filial
+
+**Resumo:**
+
+> WAN conecta redes distantes.
+
+---
+
+### SD-WAN — Software-Defined WAN
+
+SD-WAN é uma tecnologia que gerencia a WAN de forma inteligente.
+
+Ela consegue escolher o melhor caminho para o tráfego considerando fatores como:
+
+- Latência
+- Jitter
+- Perda de pacotes
+- Disponibilidade do link
+- Tipo de aplicação
+- Prioridade
+- Custo do link
+
+Exemplo:
+
+```text
+Filial
+  ↓
+SD-WAN
+  ├── Fibra
+  ├── MPLS
+  └── 5G
+```
+
+O SD-WAN pode decidir qual conexão é mais adequada para cada
