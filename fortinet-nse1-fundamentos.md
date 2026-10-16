@@ -20,13 +20,13 @@ Com a transformação digital, a infraestrutura expandiu-se para ambientes híbr
 
 ### Tríade CIA (CIA Triad)
 
-Modelo Pilar da Segurança da Informação:
+Modelo fundamental da Segurança da Informação:
 
 * **Confidencialidade (*Confidentiality*):** Restringe o acesso aos dados apenas a entidades autorizadas.
 * **Integridade (*Integrity*):** Preserva a exatidão e a confiabilidade dos dados contra alterações não autorizadas ou acidentais.
 * **Disponibilidade (*Availability*):** Garante que os sistemas e serviços estejam acessíveis quando solicitados.
 
-* ### Modelo AAA (Authentication, Authorization & Accounting)
+### Modelo AAA (Authentication, Authorization & Accounting)
 
 > [!NOTE]
 > O modelo AAA é fundamental para governança de acesso e trilhas de auditoria em ambientes corporativos.
@@ -126,54 +126,4 @@ Preparação dos sistemas criptográficos contra as ameaças da computação qu�
                                                 ▼
 [🔎 SOC / Resposta] ◄── [🛡️ Threat Intel] ◄── [🔐 Criptografia & Hash]
 
-# 🌐 Fundamentos de Redes e Segurança
-
-Anotações sobre conceitos de redes, arquitetura de segurança e defesa em profundidade.
-
----
-
-## WAN, SD-WAN e SASE
-
-### WAN — Wide Area Network
-
-WAN é uma rede utilizada para conectar redes ou unidades geograficamente distantes.
-
-Exemplos:
-
-- Matriz ↔ Filial
-- Empresa ↔ Datacenter
-- Empresa ↔ Cloud
-- Filial ↔ Filial
-
-**Resumo:**
-
-> WAN conecta redes distantes.
-
----
-
-### SD-WAN — Software-Defined WAN
-
-SD-WAN é uma tecnologia que gerencia a WAN de forma inteligente.
-
-Ela consegue escolher o melhor caminho para o tráfego considerando fatores como:
-
-- Latência
-- Jitter
-- Perda de pacotes
-- Disponibilidade do link
-- Tipo de aplicação
-- Prioridade
-- Custo do link
-
-Exemplo:
-
-```text
-Filial
-  ↓
-SD-WAN
-  ├── Fibra
-  ├── MPLS
-  └── 5G
 ```
-
-O SD-WAN pode decidir qual conexão é mais adequada para cada
